@@ -8,7 +8,7 @@
    <FeatureTypeStyle>
     <Rule>
      <Name>beschermde_archeologische_site</Name>
-     <Title>Beschermde archeologische site<Title>
+     <Title>Beschermde archeologische site</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
      <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>

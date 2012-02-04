@@ -8,18 +8,16 @@
    <FeatureTypeStyle>
     <Rule>
      <Name>beschermde_archeologische_site</Name>
-     <Title>Beschermde archeologische site<Title>
+     <Title>Beschermde archeologische site</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
      <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>
       <Fill>
        <CssParameter name="fill">#cccccc</CssParameter>
-       <CssParameter name="fill-opacity">0.5</CssParameter>
       </Fill>
       <Stroke>
         <CssParameter name="stroke">#343434</CssParameter>
         <CssParameter name="stroke-width">2</CssParameter>
-        <CssParameter name="stroke-opacity">0.5</CssParameter>
       </Stroke>
      </PolygonSymbolizer>
     </Rule>
