@@ -16,7 +16,7 @@
           <Name>relict_vastges</Name>
           <Title>Vastgesteld</Title>
           <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>vastgest</ogc:PropertyName>
@@ -41,13 +41,42 @@
         </Rule>
       </FeatureTypeStyle>
 
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>relict_vastges_ks</Name>
+          <Title>Vastgesteld</Title>
+          <MinScaleDenominator>25000</MinScaleDenominator>
+          <MaxScaleDenominator>50000</MaxScaleDenominator>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>vastgest</ogc:PropertyName>
+              <ogc:Literal>True</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <PointSymbolizer>
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#e2660c</CssParameter>
+                </Fill>
+                <Stroke>
+                  <CssParameter name="stroke">#000000</CssParameter>
+                  <CssParameter name="stroke-width">0.5</CssParameter>
+                </Stroke>
+              </Mark>
+              <Size>3</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
       
       <FeatureTypeStyle>
         <Rule>
           <Name>relict_vastges</Name>
           <Title>Niet vastgesteld</Title>
           <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>vastgest</ogc:PropertyName>
