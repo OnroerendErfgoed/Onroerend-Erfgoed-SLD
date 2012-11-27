@@ -16,7 +16,7 @@
           <Name>relict_vastges</Name>
           <Title>Vastgesteld</Title>
           <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>vastgest</ogc:PropertyName>
@@ -45,7 +45,7 @@
         <Rule>
           <Name>relict_vastges_ks</Name>
           <Title>Vastgesteld</Title>
-          <MinScaleDenominator>25000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>50000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
@@ -76,7 +76,7 @@
           <Name>relict_vastges</Name>
           <Title>Niet vastgesteld</Title>
           <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>vastgest</ogc:PropertyName>
