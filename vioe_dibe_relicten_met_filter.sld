@@ -73,7 +73,7 @@
       
       <FeatureTypeStyle>
         <Rule>
-          <Name>relict_vastges</Name>
+          <Name>relict_niet_vastges</Name>
           <Title>Niet vastgesteld</Title>
           <MinScaleDenominator>0</MinScaleDenominator>
           <MaxScaleDenominator>10000</MaxScaleDenominator>
