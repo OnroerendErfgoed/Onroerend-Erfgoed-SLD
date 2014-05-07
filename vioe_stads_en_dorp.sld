@@ -8,7 +8,7 @@
    <FeatureTypeStyle>
     <Rule>
      <Name>beschermd_stads_en_dorpsgezicht</Name>
-     <Title>Beschermd stads- en dorpsgezicht<Title>
+     <Title>Beschermd stads- en dorpsgezicht</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
      <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>
