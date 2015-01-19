@@ -40,36 +40,6 @@
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>relict_vastges_ks</Name>
-          <Title>Vastgesteld</Title>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>vastgest</ogc:PropertyName>
-              <ogc:Literal>True</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <PointSymbolizer>
-            <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#e2660c</CssParameter>
-                </Fill>
-                <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">0.5</CssParameter>
-                </Stroke>
-              </Mark>
-              <Size>6</Size>
-            </Graphic>
-          </PointSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
       
       <FeatureTypeStyle>
         <Rule>
@@ -79,7 +49,8 @@
           <MaxScaleDenominator>10000</MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>vastgest</ogc:PropertyName>
+      
+              <ogc:PropertyName>Niet_vastgesteld</ogc:PropertyName>          
               <ogc:Literal>False</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
