@@ -10,7 +10,7 @@
      <Name>vioe_ankerplaatsen</Name>
      <Title>Landschapsatlas ankerplaatsen</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
-     <MaxScaleDenominator>0</MaxScaleDenominator>
+     <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>
       <Stroke>
        <CssParameter name="stroke">#006600</CssParameter>
