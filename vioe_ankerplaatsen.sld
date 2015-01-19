@@ -7,10 +7,10 @@
    
    <FeatureTypeStyle>
     <Rule>
-     <Name>landschapsatlas_ankerplaats</Name>
-     <Title>Landschapsatlas: ankerplaats</Title>
+     <Name>vioe_ankerplaatsen</Name>
+     <Title>Landschapsatlas ankerplaatsen</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
-     <MaxScaleDenominator>500000</MaxScaleDenominator>
+     <MaxScaleDenominator>0</MaxScaleDenominator>
      <PolygonSymbolizer>
       <Stroke>
        <CssParameter name="stroke">#006600</CssParameter>
