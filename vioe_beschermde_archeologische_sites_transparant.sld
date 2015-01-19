@@ -10,7 +10,7 @@
      <Name>beschermde_archeologische_site</Name>
      <Title>Beschermde archeologische site</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
-     <MaxScaleDenominator>0</MaxScaleDenominator>
+     <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>
       <Fill>
        <CssParameter name="fill">#cccccc</CssParameter>
