@@ -3,12 +3,12 @@
  <NamedLayer>
   <Name>vioe_unesco</Name>
   <UserStyle>
-   <Title>Centrale_Archeologische_Inventaris</Title>
+   <Title>Archeologische_Zones</Title>
    
    <FeatureTypeStyle>
     <Rule>
      <Name>unesco</Name>
-     <Title>Centrale_Archeologische_Inventaris</Title>
+     <Title>Archeologische_Zones</Title>
      <MinScaleDenominator>0</MinScaleDenominator>
      <MaxScaleDenominator>500000</MaxScaleDenominator>
      <PolygonSymbolizer>
