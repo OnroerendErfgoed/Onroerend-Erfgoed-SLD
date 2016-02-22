@@ -21,8 +21,15 @@
               <CssParameter name="fill">#7ECCBB</CssParameter>
               <CssParameter name="fill-opacity">0.30</CssParameter>
             </Fill>
-            <Fill>
-             <GraphicFill>
+            <Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>
+
+          <PolygonSymbolizer>
+           <Fill>
+            <GraphicFill>
              <Graphic>
               <Mark>
                <WellKnownName>shape://slash</WellKnownName>
@@ -34,11 +41,9 @@
               <Size>20</Size>
              </Graphic>
             </GraphicFill>
-            <Stroke>
-              <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
+           </Fill>
           </PolygonSymbolizer>
+         
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
