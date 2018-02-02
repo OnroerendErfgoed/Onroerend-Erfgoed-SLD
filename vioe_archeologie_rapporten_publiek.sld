@@ -14,7 +14,7 @@
           <MaxScaleDenominator>500001</MaxScaleDenominator>
           <PolygonSymbolizer>            
             <Stroke>
-			  <CssParameter name="stroke">#0000ef</CssParameter>
+              <CssParameter name="stroke">#0000ef</CssParameter>
               <CssParameter name="stroke-width">3</CssParameter>
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
               <CssParameter name="stroke-dasharray">4 2</CssParameter>
